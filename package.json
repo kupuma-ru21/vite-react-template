@@ -29,5 +29,9 @@
     "typescript": "^5.0.2",
     "vite": "^4.3.2",
     "husky": "^8.0.0"
+  },
+  "engines": {
+    "node": "18.x",
+    "yarn": "1.x"
   }
 }
