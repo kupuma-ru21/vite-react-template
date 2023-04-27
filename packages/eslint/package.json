@@ -1,0 +1,19 @@
+{
+  "name": "eslint",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --no-splitting --minify"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/eslint": "^8.37.0",
+    "@types/estree": "^1.0.1",
+    "prettier": "^2.8.8",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}
